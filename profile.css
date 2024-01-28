@@ -23,11 +23,9 @@ body{
 }
 
 nav{
-    position: relative;
     top: 0;
     left: 0;
     background-color: #a60ae9;/*Heading Color*/
-    z-index: 99;
 }
 
 .hero{
