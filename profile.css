@@ -1,0 +1,248 @@
+:root{
+    --primary-color: #5d00fe;/*Hire me and Portfolio*/
+    --primary-color-dark: #fb4401;/* Onclick Hire me and Portfolio*/
+    --secondary-color: #ca8a04;
+    --test-dark: #eaeaea;
+    --test-light: #6b7280;
+    --extra-light: #f1b210;/* Bcground Color*/
+    --max-width: 1200px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #a60ae9;/*Heading Color*/
+    z-index: 99;
+}
+
+.hero{
+    width:100%;
+    margin: auto;
+    padding: 1.5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo a{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    padding-left: 7rem;
+}
+
+nav .logo a:hover{
+    color: var(--primary-color-dark);
+}
+
+nav .check{
+    display: none;
+}
+
+nav input{
+    display: none;
+}
+
+nav .check i{
+    font-size: 2rem;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+    transition: left 0.3s;
+}
+
+ul li a{
+    padding: 0.5rem 1rem;
+    border: 2px solid transparent;
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--text-dark);
+    transition: 0.3s;
+}
+
+ul li a:hover{
+    border-top-color: var(--secondary-color);
+    border-bottom-color: var(--secondary-color);
+    color: var(--secondary-color);
+}
+
+.section{
+    background-color: var(--extra-light);
+    width: 100%;
+}
+
+.scene{
+    min-height: 70vh;
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 1rem;
+    display: grid;
+    gap: 4rem;
+    grid-template-columns: repeat(2, 1fr)
+}
+
+.see{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.subtitle{
+    letter-spacing: 2px;
+    color: var(--text-light);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.title{
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 3rem;
+    color: var(--text-dark);
+    margin-bottom: 1rem;
+}
+
+.title span{
+    font-weight: 600;
+    color: #ff6200;
+}
+
+.design{
+    line-height: 1.5rem;
+    color: var(--text-light);
+    margin-bottom: 2rem;
+}
+
+.action{
+     display: flex;
+     gap: 1rem;
+}
+
+.action button{
+     font-size: 1rem;
+     font-weight: 600;
+     letter-spacing: 2px;
+     padding: 1rem 2rem;
+     outline: none;
+     border: 2px solid var(--primary-color);
+     border-radius: 10px;
+     transition: 0.3s;
+     cursor: pointer; 
+}
+
+.hireme{
+    background-color: var(--primary-color);
+    color: #ffffff;/*Hire me letter*/
+}
+
+.hireme:hover{
+    background-color: var(--primary-color-dark);
+}
+
+.portfolio{
+    color: var(--primary-color);
+}
+
+.portfolio:hover{
+     background-color: var(--primary-color-dark);
+     color: #2b01ff;/*Onclick Portfolio*/
+}
+
+.image{
+    display: grid;
+    place-items:   center;
+}
+
+.image img{
+    width: min(25rem, 90%);
+    border-radius: 100%;
+}
+
+footer{
+    background: #6b7280;
+    padding-top: 10px;
+}
+
+.c1{
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.c2{
+    width: 33%;
+    justify-content: space-between;
+}
+
+h3{
+    font-size: 28px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.c2 p{
+    width: 190px;
+    margin: auto;
+    padding: 7px;
+}
+
+.icons{
+    text-align: center;
+    padding: 0;
+}
+
+.icons li{
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+
+.icons i{
+    color: white;
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color:#f18930
+}
+
+.bottom{
+    background: black;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px;
+}
+
+.bottom p{
+    color:white;
+    margin: 0;
+    font-size: 16px;
+    padding: 7px;
+}
