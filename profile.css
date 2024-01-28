@@ -26,6 +26,7 @@ nav{
     top: 0;
     left: 0;
     background-color: #a60ae9;/*Heading Color*/
+    width: 122%;
 }
 
 .hero{
@@ -87,7 +88,7 @@ ul li a:hover{
 
 .section{
     background-color: var(--extra-light);
-    width: 100%;
+    width: 120vw;
 }
 
 .scene{
